@@ -1,5 +1,5 @@
 # fp-loop
-## A JavaScript functional module to simulate loops.
+### A JavaScript functional module to simulate loops.
 
 **FP-Loop** is a module that merges the traditional way of looping with functional programming concepts. This module defines a curried function that simulates an imperative loop behavior by using recursion. Its general purpose is to create immutable lists without side-effects.
 
