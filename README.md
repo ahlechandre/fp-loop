@@ -53,11 +53,11 @@ list | `array` | The current list.
 First of all, import the module:
 
 ```js
-import loop from 'loop'
+import loop from 'fp-loop'
 
 // or
 
-const loop = require('loop')
+const loop = require('fp-loop')
 ```
 
 ### Basic example:
