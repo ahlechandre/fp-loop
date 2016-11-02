@@ -25,7 +25,7 @@ loop(init)(condition)(end)(callback)(list)
 ``` 
 
 Argument | Type | Description
-----|---|--|
+---------|------|---------
 init | `any` | Defines the index value (commonly a `number`). 
 condition | `function` | Predicate that defines if the next recursive call should happen.
 end | `function` | Produces the next value of `init`. 
@@ -44,7 +44,7 @@ callback(index)(list)
 ``` 
 
 Argument | Type | Description
-----|---|--|
+---------|------|---------
 index | `any` | The current index value of recursive loop. 
 list | `array` | The current list. 
 
