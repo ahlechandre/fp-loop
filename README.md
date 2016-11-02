@@ -76,7 +76,7 @@ const li =
 console.log(li) // [10, 20, 30]
 ```
 
-### Currying benefitis:
+### Currying benefits:
 
 ```js
 const listInitial = [] // Initial empty list.
