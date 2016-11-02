@@ -121,7 +121,7 @@ const li =
     index => list => index
   )(listInitial)
 
-console.log(list) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(li) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 ### Creating immutable list with negative numbers:
@@ -137,7 +137,7 @@ const list =
     index => list => index
   )(listInitial)
 
-console.log(list) // [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
+console.log(li) // [-1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
 ```
 
 ### Getting initial list:
@@ -151,7 +151,7 @@ const li =
     index => list => false
   )()()(listInitial)
 
-console.log(list) // [1, 2, 3]
+console.log(li) // [1, 2, 3]
 ```
 
 ### Infinite recursion (case 1):
