@@ -45,7 +45,7 @@ callback(index)(list)
 
 Argument | Type | Description
 ---------|------|---------
-index | `any` | The current index value of recursive loop. 
+index | `any` | The current index value of loop. 
 list | `array` | The current list. 
 
 
